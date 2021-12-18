@@ -78,7 +78,7 @@ namespace AngulerCRUDWithIdentity.Controllers
             }
             catch (Exception)
             {
-                throw;
+                return 0;
             }
         }
     }
